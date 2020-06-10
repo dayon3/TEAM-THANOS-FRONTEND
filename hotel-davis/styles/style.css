@@ -38,13 +38,38 @@ body {
 	min-height: 100vh;
 }
 
+
+/*********************************
+OVERVIEW
+*/
+
 .container {
 	max-width: 120rem;
-	margin: 0 auto;
+	margin: 0 100px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	font-family: 'Montserrat';
 }
 
+.logo_container {
+    height: auto;
+    float: left;
+    margin-top: 350px;
+    color: white;
+}
+
+.theme{
+	font-size: 80px;
+	line-height: 1.0;
+	max-width: 18em;
+}
+
+.message{
+	color: white;
+	font-size: 15px;
+	text-align: justify;
+	text-justify: inter-word;
+}
 /*********************************
 BUTTONS
 */
@@ -63,6 +88,15 @@ BUTTONS
 
 .btn.primary {
 	background: var(--color-primary);
+	padding: 14px 32px;
+	border-radius: 12px;
+}
+
+.btn.primary a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat';
+	font-size: 15px
 }
 
 .btn.ghost {
