@@ -1,8 +1,6 @@
+/* BASE */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&display=swap');
 
-/*********************************
-BASE
-*/
 :root {
 	--color-primary: #98c0cf;
 	--color-secondary: #222639;
@@ -36,9 +34,4 @@ body {
 	background-repeat: no-repeat;
 
 	min-height: 100vh;
-}
-
-.container {
-	max-width: 120rem;
-	margin: auto;
 }
